@@ -1,0 +1,184 @@
+
+body {
+	background-color: #ffd90d
+}
+
+.header {
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
+}
+
+.flavorTag {
+  margin: 4px;
+  font-family: Keedy Sans OT;
+}
+
+.image-container {
+	display: flex;
+	justify-content: space-between;
+}
+
+
+img{
+width: 200px;
+}
+
+p {
+	font-size: 20px;
+	font-family: Keedy Sans OT;
+}
+
+h2 {
+	font-family: Keedy Sans OT;
+	font-size: 30px;
+	text-align: center; 
+	color: red;
+}
+
+h3 {
+	font-family: Keedy Sans OT;
+	font-size: 55px;
+	color: red;
+	margin-left: 30px;
+}
+
+
+a { 
+  text-decoration: none;
+  color: black; }
+
+
+.filter {
+display: flex;
+flex-direction: column;
+}
+
+ button {
+  border: none;
+  color: white;
+  padding: 30px 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 40px;
+  font-family: Keedy Sans OT;
+  max-width: 50vh;
+  margin: 10px;
+  border-radius: 30px;
+}
+
+#button-container {
+	text-align: center;
+
+}
+
+#spicy {
+	
+	 background-color: red;
+}
+#sweet {
+	 background-color: #dd7798;
+}
+#tangy {
+	 background-color: #ff8c00;
+}
+#wavy {
+	 background-color: #33ccff;
+}
+
+.overlay {
+	opacity: 0;
+	transition: opacity 0.5s;
+	color: purple;
+}
+
+.overlay:hover {
+	opacity:1;
+	color: purple;
+}
+
+.imglogo { 
+width: 200px; 
+
+ }
+
+ .logo {
+ display: flex;
+ justify-content: center;
+align-items: center;
+min-height: 100vh;
+}
+
+
+.china {
+	position: relative;
+	width: 180px;
+	top: -400px;
+	left: 1000px;
+}
+
+ .canada {
+ width: 160px;
+ position: absolute;
+ top:90px;
+ left: 130px;
+ }
+
+  .india {
+ width: 130px;
+ position: absolute;
+ top:130px;
+ left: 730px;
+ }
+
+ .unitedstates {
+ width: 260px;
+ position: absolute;
+ top:360px;
+ left:100px;
+ }
+
+ .france {
+width: 100px;
+position: absolute;
+top:550px;
+left: 950px;
+ }
+
+ .italy {
+width: 100px;
+position: absolute;
+top:90px;
+left: 990px;
+ }
+
+ .vietnam {
+width: 100px;
+position: absolute;
+top:450px;
+left: 700px;
+}
+
+.thailand {
+width: 100px;
+position: absolute;
+top:600px;
+left: 560px;
+}
+
+.indonesia {
+width: 130px;
+position: absolute;
+top:630px;
+left: 300px;
+}
+
+.greece {
+width: 100px;
+position: absolute;
+top:180px;
+left: 470px;
+}
+
